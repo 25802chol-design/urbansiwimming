@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-glow-pink {
+    text-shadow: 0 0 15px rgba(244, 63, 94, 0.45);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #1e293b;
+  background-color: #f8fafc;
+}
